@@ -19,6 +19,38 @@
     background-color: #213C53;
 }
 
+.menu-nav {
+    
+        display: flex;
+        align-items: center;
+}
+
+.menu ul {
+    margin-bottom: 0px;
+    
+}
+
 .menu li{
     display: inline-block;
+    padding: 0px 20px;
+    
+    
+    
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #dcf6fdd8;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+.headercontent {
+    margin-top: 30px;
+}
+.menu {
+    
 }
