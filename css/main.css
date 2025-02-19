@@ -85,9 +85,57 @@
     font-size: 16px;
 }
 
+
 .img-promo {
 
     width: 301px;
     height: 150px;
 }
 
+.toph {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.main-text-rate {
+    color: #213C53;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.promo-text {
+    color: #213C53;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    /* font-weight: 700; */
+}
+
+
+
+.play-now {
+    text-decoration: none;
+    color: #212529;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #F9BF3B;
+    border: 0;
+    
+}
+
+.text-pad {
+    padding: 0;
+}
+
+.label-promo {
+    width: 206px;
+    height: 103px;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
