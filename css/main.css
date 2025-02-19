@@ -2,11 +2,17 @@
 body {
 	min-width: 360px;
 	font-family: 'Poppins', sans-serif;
+	background-color: #F5F7FA;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Rubik', sans-serif;
 }
+
+h2 {
+	padding-bottom: 20px;
+}
+
 
 .red {
     background-color: red;
@@ -79,7 +85,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .promo {
-    background-color: #213C53;
+		background: #213C53 url('../img/promo/promo_bg.svg') no-repeat scroll bottom center / cover;
     padding-bottom: 40px;
 }
 
@@ -147,9 +153,33 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 103px;
 }
 
-.text-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* BEST LIST CARD */
+.top-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
+
+.bestlist_card {
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0 3px 5px -2px #bec9d6, 0 8px 12px -2px #c0cad7;
+	border-radius: 15px;
+	padding: 45px 45px 15px 45px;
+	margin-top: 40px;
+}
+.bestlist_card_num {
+	width: 40px;
+	height: 40px;
+	background-color: #f9bf3b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+}
+.bestlist_card_logo {
+	border-radius: 5px;
+}
+
