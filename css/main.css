@@ -34,7 +34,15 @@ h2 {
     background-color: #213C53;
 }
 
+.header-row {
+    flex-wrap: nowrap;
+}
+
 /* menu */
+.navbar-toggler {
+    display: flex;
+    justify-content: end;
+}
 .menu-nav {
     
         display: flex;
@@ -57,8 +65,6 @@ h2 {
     color: #dcf6fdd8;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
-    
-    
 }
 
 .headercontent {
@@ -69,7 +75,7 @@ h2 {
 }
 
 
-.btnin {
+/* .btnin {
     text-decoration: none;
     color: #dcf6fdd8;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +88,7 @@ h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     background-color: #F9BF3B;
-}
+} */
 
 .promo {
 		background: #213C53 url('../img/promo/promo_bg.svg') no-repeat scroll bottom center / cover;
@@ -183,3 +189,13 @@ h2 {
 	border-radius: 5px;
 }
 
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+    
+    .nav-item {
+        text-align: left;
+        padding: 0.5rem 0;
+    }
+}

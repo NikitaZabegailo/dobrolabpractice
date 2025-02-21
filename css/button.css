@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        height: 100vh;
+        z-index: 1000;
+        padding: 20px;
+        transition: all 0.3s ease;
+        transform: translateX(100%);
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+
+    /* Приховуємо navbar-toggle коли меню відкрите */
+    .navbar-collapse.show + .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-nav {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    /* Позиціонування кнопки закриття */
+    .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
