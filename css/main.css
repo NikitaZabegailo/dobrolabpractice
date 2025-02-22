@@ -38,6 +38,10 @@ h2 {
     flex-wrap: nowrap;
 }
 
+.logo img {
+    max-width: 100%;
+}
+
 /* menu */
 .navbar-toggler {
     display: flex;
