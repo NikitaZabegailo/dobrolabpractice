@@ -5,7 +5,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: white;
+        background: #213C53;
         height: 100vh;
         z-index: 1000;
         padding: 20px;
@@ -28,11 +28,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .nav-item {
         margin: 15px 0;
         font-size: 24px;
+    }
+
+    .nav-link {
+        color: #dcf6fdd8;
     }
 
     /* Позиціонування кнопки закриття */

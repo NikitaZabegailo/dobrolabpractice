@@ -70,28 +70,11 @@ h2 {
 .headercontent {
     padding-top: 30px;
 }
-.menu {
-    
-}
 
 
-/* .btnin {
-    text-decoration: none;
-    color: #dcf6fdd8;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-}
-
-.btnup {
-    text-decoration: none;
-    color: #212529;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    background-color: #F9BF3B;
-} */
 
 .promo {
-		background: #213C53 url('../img/promo/promo_bg.svg') no-repeat scroll bottom center / cover;
+    background: #213C53 url('../img/promo/promo_bg.svg') no-repeat scroll bottom center / cover;
     padding-bottom: 40px;
 }
 
@@ -124,16 +107,10 @@ h2 {
 }
 
 
-.main-text-rate {
-    color: #213C53;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-}
-
 .promo-text {
     color: #213C53;
     font-family: 'Poppins', sans-serif;
-    font-size: 23px;
+    font-size: 25px;
     /* font-weight: 700; */
 }
 
@@ -143,15 +120,13 @@ h2 {
     text-decoration: none;
     color: #212529;
     font-family: 'Rubik', sans-serif;
-    font-weight: 600;
     font-size: 25px;
     background-color: #F9BF3B;
     border: 0;
+    border-radius: 15px;
+    width: 228px;
+    height: 66px;
     
-}
-
-.text-pad {
-    padding: 0;
 }
 
 .label-promo {
@@ -183,19 +158,49 @@ h2 {
 	border-radius: 5px;
 	position: absolute;
 	top: -20px;
-	left: 20px;
-}
-.bestlist_card_logo {
-	border-radius: 5px;
+	left: 52px;
 }
 
-@media (max-width: 991px) {
-    .navbar-nav {
-        padding: 1rem 0;
-    }
+.bestlist_card_label {
+    width: 210px;
+    height: 40px;
+    background-color: #f9bf3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    top: -20px;
+    left: 480px;
+}
+
+.bestlist_card_logo {
+    width: 200px;
+    height: 100px;
+	border-radius: 5px;
+    padding: 0;
+}
+
+.bestlist_rate {
+    color: #213C53;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.text-pad {
+    padding: 0;
+}
+
+.promo_conditions {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding-left: 5px;
+
+}
+
+.promo-item {
+    display: flex;
+    align-items: flex-start;
     
-    .nav-item {
-        text-align: left;
-        padding: 0.5rem 0;
-    }
 }

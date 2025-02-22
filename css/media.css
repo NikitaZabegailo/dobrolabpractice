@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+    
+    .nav-item {
+        text-align: left;
+        padding: 0.5rem 0;
+    }
+
+    .bestlist_card_label {
+        display: none;
+    }
+
+}
