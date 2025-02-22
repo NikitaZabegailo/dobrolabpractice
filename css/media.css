@@ -8,8 +8,20 @@
         padding: 0.5rem 0;
     }
 
-    .bestlist_card_label {
-        display: none;
+    .bestlist_card {
+        padding: 30px 20px 15px 15px;
     }
+
+    .bestlist_card_num {
+        left: 20px;
+    }
+
+    .bestlist_card_label {
+        top: -15px;
+        font-size: 14px;
+    }
+    /* .bestlist_card_label {
+        display: none;
+    } */
 
 }
